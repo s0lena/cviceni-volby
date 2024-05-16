@@ -33,7 +33,8 @@ export const HomePage = () => {
           <Candidate 
             key={c.name}
             name={c.name} 
-            avatar={c.avatar} 
+            avatar={c.avatar}
+            onVote={setPresident} 
           />
         ))}
       </div>
